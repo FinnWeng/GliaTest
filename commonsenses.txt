@@ -1,0 +1,12 @@
+1. 因為以二元分類有誤的資料中，Precision只考慮到True Positive與False Positive，而F1-score多考慮到Recall裡面False Negative的資料，因此對於準確率的掌握能夠更高。
+
+2. 
+
+3. Bias是指model function準確率的大小
+   Variance是指model function受到離群資料或小部分資料影響的程度
+
+4. 因為本身即為集成學習
+
+5. one-hot encoding是將類別型資料轉換成數值型資料作為特徵值處理的方法，例如在三個不同類別資料中，能轉換成向量(0,0,1)、(0,1,0)、(1,0,0)使用
+
+6.regularization: dropout, denoising(PCA, autoencoder)
